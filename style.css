@@ -1,0 +1,23 @@
+
+  
+  .maintext {
+    
+
+position: relative;
+transform: scale(1);
+animation-name: moving-text;
+animation-duration: 3s;
+animation-timing-function: ease;
+
+animation-iteration-count: 1;    
+}
+  
+ 
+ 
+
+  @keyframes moving-text{
+0%{margin-right: 50%; top: 0px; left: 1500px; transform: scale(1)}
+25%{ top: 400px; left: 1000px; transform: scale(2)}
+/* 50%{top: 200px; left: 600px; transform: scale(2)} */
+100%{top: 0px; left: 0px; transform: scale(1)}
+  } 
